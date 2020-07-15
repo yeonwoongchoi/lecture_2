@@ -7,7 +7,7 @@
 
 
 def print_root(a,b):
-    result = a + b
-    print(a, '의' , b'제곱은' , result, '입니다.')
+    result = a**b
+    print(a, '의' , b,'제곱은' , result, '입니다.')
 
 print_root(4,3)
